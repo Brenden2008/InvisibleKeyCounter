@@ -1,13 +1,14 @@
 //install libs in to site:
+var script1=document.createElement('script');
+script1.type='text/javascript';
+script1.src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js';
+document.getElementsByTagName('head')[0].appendChild(script1);
+
 var script=document.createElement('script');
 script.type='text/javascript';
 script.src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js';
 document.getElementsByTagName('head')[0].appendChild(script);
 
-var script1=document.createElement('script');
-script1.type='text/javascript';
-script1.src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js';
-document.getElementsByTagName('head')[0].appendChild(script1);
 
 //Make da gui
 //Im out of my area right now because we do all of this with dom manipulation in js
