@@ -52,7 +52,10 @@ var pp = document.createElement("P");
 pp.innerHTML = " times.";
 document.getElementById("mainbox").appendChild(pp);
 
-
+var xx = document.createElement("INPUT");
+  xx.setAttribute("type", "text");
+  xx.setAttribute("value", "Type here!");
+  document.getElementById("mainbox").appendChild(xx);
 
 
 
