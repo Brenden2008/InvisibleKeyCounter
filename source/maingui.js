@@ -1,11 +1,13 @@
 //install libs in to site:
 var script1=document.createElement('script');
 script1.type='text/javascript';
+script1.crossOrigin = anonymous;
 script1.src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js';
 document.getElementsByTagName('head')[0].appendChild(script1);
 
 var script=document.createElement('script');
 script.type='text/javascript';
+script.crossOrigin = anonymous;
 script.src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js';
 document.getElementsByTagName('head')[0].appendChild(script);
 
@@ -16,6 +18,7 @@ document.getElementsByTagName('head')[0].appendChild(script);
 
 //some css
 var x = document.createElement("LINK");
+  x.crossOrigin = anonymous;
   x.setAttribute("rel", "stylesheet");
   x.setAttribute("type", "text/css");
   x.setAttribute("href", "https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css");
