@@ -41,10 +41,6 @@ var pp = document.createElement("P");
 pp.innerHTML = " times.";
 document.getElementById("mainbox").appendChild(pp);
 
-var btn = document.createElement("BUTTON");
-btn.innerHTML = "Reset";
-btn.onclick = resetHits();
-document.getElementById("mainbox").appendChild(btn);
 
 
 
@@ -75,3 +71,10 @@ var resetHits = function() {
   renderHits();
 }
 
+
+
+//stupid dom crap
+var btn = document.createElement("BUTTON");
+btn.innerHTML = "Reset";
+btn.onclick = resetHits();
+document.getElementById("mainbox").appendChild(btn);
