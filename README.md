@@ -7,4 +7,4 @@ To install these bookmarklets, just drag the links to the bookmarks bar then cli
 
 ### Spacebar clicker
 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+[I'm an inline-style link with title](https://www.google.com)
