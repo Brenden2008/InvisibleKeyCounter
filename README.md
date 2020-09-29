@@ -7,4 +7,5 @@ To install these bookmarklets, just drag the links to the bookmarks bar then cli
 
 ### Spacebar clicker
 
-[I'm an inline-style link with title](https://www.google.com)
+[Instll Spacebar Clicker](javascript:!function(){var e=document.createElement("script");e.type="text/javascript",e.src="https://cdn.jsdelivr.net/gh/Brenden2008/InvisableKeyCounter@master/source/mainspacebar.js",document.getElementsByTagName("head")[0].appendChild(e)}();)
+[See Spacebar Clicker Score](https://www.google.com)
