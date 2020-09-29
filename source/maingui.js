@@ -35,12 +35,12 @@ function openscgui(){
 //container
 var div = document.createElement("DIV");
 div.id = "mainbox";
-div.title = "Spacebar Counter";
+div.title = "Key Counter";
 document.body.appendChild(div);
 
 //Counter
 var p = document.createElement("P");
-p.innerHTML = "You have hit the spacebar: ";
+p.innerHTML = "You have hit a key on the keyboard: ";
 document.getElementById("mainbox").appendChild(p);
 
 var span = document.createElement("SPAN");
@@ -63,9 +63,7 @@ document.getElementById("mainbox").appendChild(pp);
 hits = 0;
 var hitElement = document.querySelector( '.hits' );
 document.body.onkeyup = function(e) {
-  if( e.keyCode == 32 ) {
-    addHit();
-  }
+  addHit();
 }
 
 var addHit = function() {
