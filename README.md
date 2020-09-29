@@ -1,5 +1,5 @@
-# Invisable Key Counter
-An invisable key counter bookmarklet.
+# Invisible Key Counter
+An invisible key counter bookmarklet.
 
 ## Install
 
