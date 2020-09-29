@@ -13,6 +13,13 @@ document.getElementsByTagName('head')[0].appendChild(script1);
 //Im out of my area right now because we do all of this with dom manipulation in js
 
 
+//some css
+var x = document.createElement("LINK");
+  x.setAttribute("rel", "stylesheet");
+  x.setAttribute("type", "text/css");
+  x.setAttribute("href", "https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css");
+  document.head.appendChild(x);
+
 //Give it gui
 function openscgui(){
   $( function() {
