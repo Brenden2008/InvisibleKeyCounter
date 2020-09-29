@@ -30,21 +30,21 @@ document.body.appendChild(div);
 //Counter
 var p = document.createElement("P");
 p.innerHTML = "You have hit the spacebar: ";
-document.document.getElementById("mainbox").appendChild(p);
+document.getElementById("mainbox").appendChild(p);
 
 var span = document.createElement("SPAN");
 span.innerHTML = 0;
 span.className = "hits";
-document.document.getElementById("mainbox").appendChild(span);
+document.getElementById("mainbox").appendChild(span);
 
 var pp = document.createElement("P");
 pp.innerHTML = " times.";
-document.document.getElementById("mainbox").appendChild(pp);
+document.getElementById("mainbox").appendChild(pp);
 
 var btn = document.createElement("BUTTON");
 btn.innerHTML = "Reset";
 btn.onclick = resetHits();
-document.document.getElementById("mainbox").appendChild(btn);
+document.getElementById("mainbox").appendChild(btn);
 
 
 
