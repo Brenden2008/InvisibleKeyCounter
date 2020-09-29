@@ -81,11 +81,3 @@ var resetHits = function() {
   hits = 0;
   renderHits();
 }
-
-
-
-//stupid dom crap
-var btn = document.createElement("BUTTON");
-btn.innerHTML = "Reset";
-btn.onclick = resetHits();
-document.getElementById("mainbox").appendChild(btn);
